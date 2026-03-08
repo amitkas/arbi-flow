@@ -1,0 +1,36 @@
+# Environment & secrets
+.env
+credentials/
+client_secret.json
+youtube_token.json
+
+# Generated output
+artifacts/
+output/
+logs/
+
+# Docs (generated / local)
+docs/*.docx
+scripts/export_to_docx.py
+
+# Dedup & cache stores (per-instance)
+data/processed_events.json
+data/trend_cache.json
+
+# Incomplete downloads
+*.part
+*.webm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
